@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          
+        //   let p = new Promise(
+        //     function (sucess,error){
+        //         let datacame=fail
+        //         if(datacame)
+        //         sucess("data came its working")
+        //     else 
+        //     error("data is no here so its error")
+        //     }
+        //   )
+        //   p.then(function(sucessdata){
+        //     console.log(sucessdata)
+        //   })
+        //   p.catch(function(errordata){
+        //     console.log(errordata)
+        //   })
+        //   p.finally(function(){
+
+        //   })
+
+        let p=new Promise(function(Sucess,Error){
+            let datacame=Sucess
+            if(datacame)
+            Sucess([0,1,2,3,4])
+        else
+        Error("no data found")
+        })
+        p.then(function(Sucessdata){
+            console.log(Sucessdata)
+
+        })
+        p.catch(function(Errordata){
+            console.log(Errordata)
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

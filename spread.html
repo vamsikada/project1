@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let odd=[1,3,5,7];
+        // let combine=[2,4,6,8,...odd];
+        // document.write(combine);
+
+        let names=['abhi',"arjun","akhila"];
+        let Morenames=["balu","blalayya"];
+        [].push.apply(names,Morenames);
+        names.push(...Morenames);
+        document.write(names);
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            align-items: center;
+        }
+        .container{
+            gap: 10px;
+            margin-top: 320px;
+            text-align: center;
+            
+        }
+        .container input{
+            width: 10%;
+            height: 30px;
+        
+        }
+        #btn{
+            width: 13%;
+            height: 30px;
+        }
+       
+    </style>
+</head >
+<body>
+    <div>
+        <h1>this is form validation</h1>
+        <h4>Enter number</h4>
+       Number: <input type="number" id="inp">
+        <button type="submit" onclick="validateform() ,next()" > submit</button>
+    </div>
+    <script>
+      let butt=document.getElementById('inp');
+      function validateform(){
+        document.write("thank you for choosing this job");
+        document.write("Submitted Sucessfully")
+      }
+      function next(){
+        document.write("   choose another career for this company")
+      }
+    </script>
+</body>
+</html>
